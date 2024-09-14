@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSVID - Nos Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+    </nav>
+
+    <header class="services-header">
+        <h1>Nos Services</h1>
+        <p>Découvrez nos services spécialisés pour améliorer vos vidéos. Nous offrons des solutions complètes pour tous vos besoins en traduction, doublage, sous-titrage et plus encore.</p>
+    </header>
+
+    <section class="services-highlight-section">
+        <h2>Nos Offres</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="icons/traduction.png" alt="Traduction vidéo" class="service-icon">
+                <h3>Traduction vidéo</h3>
+                <p>Traductions précises et professionnelles pour tout type de contenu vidéo.</p>
+                <a href="contact.html" class="cta-button">Demander un devis</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/doublage.png" alt="Doublage" class="service-icon">
+                <h3>Doublage</h3>
+                <p>Doublage professionnel pour rendre vos vidéos accessibles dans plusieurs langues.</p>
+                <a href="contact.html" class="cta-button">Demander un devis</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/sous-titrage.png" alt="Sous-titrage" class="service-icon">
+                <h3>Sous-titrage</h3>
+                <p>Sous-titres précis pour tous vos projets vidéo, garantissant la clarté et la compréhension.</p>
+                <a href="contact.html" class="cta-button">Demander un devis</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/adaptation.png" alt="Adaptation pour réseaux sociaux" class="service-icon">
+                <h3>Adaptation pour les réseaux sociaux</h3>
+                <p>Création de sous-titres, recadrage et traduction de courtes vidéos pour des plateformes sociales.</p>
+                <a href="contact.html" class="cta-button">Demander un devis</a>
+            </div>
+            <div class="service-card">
+                <img src="icons/sous-titrage-malentendants.png" alt="Sous-titrage pour malentendants" class="service-icon">
+                <h3>Sous-titrage pour malentendants</h3>
+                <p>Sous-titres spécifiques pour les personnes malentendantes, incluant des indications sonores.</p>
+                <a href="contact.html" class="cta-button">Demander un devis</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TRANSVID. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
+
